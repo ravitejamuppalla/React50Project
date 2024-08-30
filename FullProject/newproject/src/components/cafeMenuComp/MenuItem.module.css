@@ -1,0 +1,53 @@
+.MenuDetails {
+  display: flex;
+  gap: 30px;
+}
+.MenuDetails img {
+  object-fit: fill;
+  height: 200px;
+  width: 300px;
+  border: 0.25rem solid rgb(3, 3, 107);
+  display: block;
+}
+.menuHeading {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.menuDetailsData {
+  max-width: 350px;
+}
+.menuSubHeading {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+  color: rgb(138, 138, 138);
+  margin-top: 20px;
+}
+.borderInBetwwen {
+  width: 100%;
+  border: none;
+  border-top: 1px dotted rgb(0, 0, 0);
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 40px 40px;
+  gap: 40px;
+}
+.price {
+  color: rgb(3, 3, 107);
+  font-size: 18px;
+}
+.filterFailed {
+  text-align: center;
+  color: rgb(3, 3, 107);
+}

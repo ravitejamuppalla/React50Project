@@ -1,0 +1,74 @@
+#features {
+  padding: 20px 80px;
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.featureCard {
+  width: 200px;
+  border: 1px solid #cccc;
+  border-radius: 3px;
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+}
+.featureCard:hover {
+  box-shadow: 10px 10px 54px rgb(0, 0, 0, 0.03);
+}
+.featureCard img {
+  width: 100%;
+}
+.featureCard h5 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 9px 8px 9px;
+  background-color: rgba(255, 162, 177, 0.63);
+  color: #088178;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  margin-top: 15px;
+  line-height: 1;
+}
+
+.featureCard:nth-child(2) h5 {
+  background-color: #cdebbc;
+}
+.featureCard:nth-child(3) h5 {
+  background-color: #d1e8f2;
+}
+.featureCard:nth-child(4) h5 {
+  background-color: #cdd4f8;
+}
+.featureCard:nth-child(5) h5 {
+  background-color: #f6bdf6;
+}
+.featureCard:nth-child(6) h5 {
+  background-color: #fff2e5;
+}
+
+@media (max-width: 799px) {
+  #features {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 477px) {
+  #features {
+    justify-content: space-evenly;
+  }
+  #features {
+    padding: 5px;
+  }
+
+  .featureCard {
+    width: 150px;
+  }
+}

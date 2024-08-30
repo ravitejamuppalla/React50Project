@@ -1,0 +1,90 @@
+.footerDetails {
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container1 img {
+  width: 120px;
+}
+.container1 h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.addressDetails .addressHeading {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.888);
+}
+.addressDetails .addressDetailsData {
+  font-size: 14px;
+  color: rgba(20, 20, 20, 0.797);
+}
+.addressDetails {
+  margin-bottom: 5px;
+}
+.followus p {
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: black;
+}
+.followus i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.followus i:hover {
+  color: #088178;
+}
+.container2 p {
+  color: rgba(20, 20, 20, 0.797);
+}
+.container2 strong {
+  font-size: 16px;
+}
+.container2 p {
+  margin-bottom: 5px;
+}
+.container2 p:hover {
+  color: #088178;
+  cursor: pointer;
+}
+
+.container3 p {
+  margin-bottom: 20px;
+}
+.container3 img {
+  border: 1px solid #088178;
+  border-radius: 4px;
+  margin-right: 7px;
+  height: 40px;
+}
+.container3 img:hover {
+  cursor: pointer;
+}
+.copyRights {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  font-size: 18px;
+  color: #088178;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.paymentGateway {
+  border: none;
+}
+
+@media (max-width: 477px) {
+  .copyRights {
+    margin-left: 20px;
+  }
+}

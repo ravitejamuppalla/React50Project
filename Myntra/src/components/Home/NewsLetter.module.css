@@ -1,0 +1,48 @@
+.newLetter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../../img/banner/b14.png");
+  background-color: #001253;
+  height: 25vh;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.newLetter h4 {
+  color: #fff;
+}
+.newLetter p {
+  color: rgba(255, 255, 255, 0.557);
+}
+.newLetter p span {
+  color: #fd841f;
+}
+.signUp {
+  display: flex;
+  gap: 1px;
+}
+.signUp input {
+  height: 4.125rem;
+  padding: 0 1.23rem;
+  width: 120%;
+  font-size: 22px;
+  outline: none;
+  border-radius: 7px;
+  border: none;
+}
+.signUp button {
+  width: 120px;
+  text-align: center;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #088178;
+  color: #fff;
+}
+@media (max-width: 477px) {
+  .newLetter {
+    padding: 15px;
+  }
+}
